@@ -1,4 +1,28 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    background: #1F2937;
+    display: flex;
+    padding: 20px 100px;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: 30px;
+    text-decoration: none;
+    font-family: Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
